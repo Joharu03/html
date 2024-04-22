@@ -1,4 +1,13 @@
 
+a {
+    color:#333333; 
+    text-decoration:none;
+}
+a:hover {
+   text-decoration:underline;
+}
+li {list-style:none;}  /* 점없애기 */ 
+
 .notice {
     width: 350px;
     height: auto;
@@ -15,6 +24,10 @@
 
 /* 폰트 사이즈 지정 안했을때 사이즈 16px */
 
+.notice ul li a {font-size:12px;}
+.notice ul li span {font-size:12px;}
+
+/* 팝업창 */
 .popup {
     width: 273px; height: 340px;
     background: url("../images/1.png");
