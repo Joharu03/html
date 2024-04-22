@@ -12,3 +12,8 @@
     right: 8px;
     top: 17px;
 }
+
+/* 폰트 사이즈 지정 안했을때 사이즈 16px */
+.popup i {
+    font-size: 15px;
+}
