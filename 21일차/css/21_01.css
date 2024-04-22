@@ -14,6 +14,6 @@
 }
 
 /* 폰트 사이즈 지정 안했을때 사이즈 16px */
-.popup i {
+.popup {
     font-size: 15px;
 }
