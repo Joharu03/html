@@ -17,6 +17,7 @@ li {list-style:none;}  /* 점없애기 */
     border: 5px solid #ddd;
     padding: 20px;
     position: relative;
+    margin:30px auto;
 }
 
 .notice h1 {
