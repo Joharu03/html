@@ -37,7 +37,7 @@ li {list-style:none;}  /* 점없애기 */
 /* 팝업창 */
 .popup {
     width: 273px; height: 340px;
-    background: url("../images/1.png");
+    /*background: url("../images/1.png");*/
     padding: 20px;
     position: relative;
 }
