@@ -30,6 +30,13 @@ li {list-style:none;}  /* 점없애기 */
 
 /* 폰트 사이즈 지정 안했을때 사이즈 16px */
 
+.notice ul li {
+    padding-left: 15px;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 1px dashed #ddd;
+    background: url("../images/1.png") no-repeat 0 13px; /* x, y */
+}
 .notice ul li a {
     font-size:12px;
 }
