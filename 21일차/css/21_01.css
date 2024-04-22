@@ -53,3 +53,10 @@ li {list-style:none;}  /* 점없애기 */
 .popup {
     font-size: 15px;
 }
+.popup a.close {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #ff8eba;
+    border-radius: 50%;
+}
