@@ -16,6 +16,9 @@ li {list-style:none;}  /* 점없애기 */
     position: relative;
 }
 
+.notice h1 {
+    font-size:15px; margin-bottom:10px;
+}
 .notice h1+a {
     position: absolute;
     right: 8px;
@@ -24,8 +27,12 @@ li {list-style:none;}  /* 점없애기 */
 
 /* 폰트 사이즈 지정 안했을때 사이즈 16px */
 
-.notice ul li a {font-size:12px;}
-.notice ul li span {font-size:12px;}
+.notice ul li a {
+    font-size:12px;
+}
+.notice ul li span {
+    font-size:12px;
+}
 
 /* 팝업창 */
 .popup {
