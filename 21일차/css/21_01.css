@@ -52,6 +52,10 @@ li {list-style:none;}  /* 점없애기 */
     width: 273px; height: 340px;
     background: url("../images/popUp.jpg")no-repeat;
     position: relative;
+    top: 0; left: 50%;
+    transform: translate(-50%, -50%);
+    /*그림자*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .popup {
     font-size: 15px;
@@ -66,4 +70,7 @@ li {list-style:none;}  /* 점없애기 */
     border-radius: 50%;
     text-align: center;
     color: #fff;
+}
+.popup a.close:hover {
+    background-color: #c04876;
 }
