@@ -1,15 +1,23 @@
 
 * {
-    margin:0; padding:0;
+    margin: 0;
+    padding: 0;
 }
+
 a {
-    color:#333333; 
-    text-decoration:none;
+    color: #333333;
+    text-decoration: none;
 }
+
 a:hover {
-   text-decoration:underline;
+    text-decoration: underline;
 }
-li {list-style:none;}  /* 점없애기 */ 
+
+li {
+    list-style: none;
+}
+
+/* 점없애기 */
 
 .notice {
     width: 350px;
@@ -17,16 +25,24 @@ li {list-style:none;}  /* 점없애기 */
     border: 5px solid #ddd;
     padding: 20px;
     position: relative;
-    margin:30px auto;
+
+    top: 204px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* x, y */
+
 }
 
 .notice h1 {
-    font-size:15px; margin-bottom:10px;
+    font-size: 17px;
+    margin-bottom: 10px;
 }
+
 .notice h1+a {
-    font-size:12px;
-    position:absolute;
-    right:15px; top:17px
+    font-size: 12px;
+    position: absolute;
+    right: 15px;
+    top: 17px
 }
 
 /* 폰트 사이즈 지정 안했을때 사이즈 16px */
@@ -36,34 +52,53 @@ li {list-style:none;}  /* 점없애기 */
     height: 25px;
     line-height: 22px;
     border-bottom: 1px dashed #ddd;
-    background: url("../images/dot.svg") no-repeat 0 11px; /* x, y */
+    background: url("../images/dot.svg") no-repeat 0 11px;
     box-sizing: border-box;
-    
+
 }
+
 .notice ul li a {
-    font-size:12px;
+    font-size: 12px;
 }
+
+.notice ul li a:hover,
+.notice ul li a:focus {
+    color: #10ae4f;
+    text-decoration: underline;
+}
+
 .notice ul li span {
-    font-size:12px;
+    font-size: 12px;
+    color: #999;
+    float: right;
+}
+
+.notice ul li strong {
+    color: #10ae4f;
 }
 
 /* 팝업창 */
 .popup {
-    width: 273px; height: 340px;
+    width: 273px;
+    height: 340px;
     background: url("../images/popUp.jpg")no-repeat;
     position: relative;
-    top: 0; left: 50%;
+    top: 0;
+    left: 50%;
     transform: translate(-50%, -50%);
     /*그림자*/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     display: none;
 }
+
 .popup {
     font-size: 15px;
 }
+
 .popup a.close {
     position: absolute;
-    right: 10px; top: 10px;
+    right: 10px;
+    top: 10px;
     display: block;
     width: 30px;
     height: 30px;
@@ -73,6 +108,7 @@ li {list-style:none;}  /* 점없애기 */
     text-align: center;
     color: #fff;
 }
+
 .popup a.close:hover {
     background-color: #c04876;
 }
