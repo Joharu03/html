@@ -18,6 +18,8 @@
 .popup {
     width: 273px; height: 340px;
     background: url("../images/1");
+    padding: 20px;
+    position: relative;
 }
 .popup {
     font-size: 15px;
