@@ -97,12 +97,11 @@ li {
 
 .popup a.close {
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 20px;
+    top: 20px;
     display: block;
-    width: 30px;
-    height: 30px;
-    background: url("../images/Close_MD.svg")no-repeat ;
+    width: 40px;
+    height: 40px;
     line-height: 30px;
     background-color: #ff8eba;
     border-radius: 50%;
