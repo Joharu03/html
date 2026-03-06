@@ -100,11 +100,12 @@ li {
     right: 20px;
     top: 20px;
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     line-height: 30px;
     background-color: #e98baf;
-    background: url("../images/icon.svg")no-repeat 0 16px;
+    background: url("../images/icon.svg")no-repeat;
+    margin: 0 auto;
     border-radius: 50%;
     text-align: center;
     color: #fff;
