@@ -104,7 +104,7 @@ li {
     height: 40px;
     line-height: 30px;
     background-color: #e98baf;
-    background: url("../images/Close_MD.svg")no-repeat 0 16px;
+    background: url("../images/Close_MD.svg")no-repeat;
     border-radius: 50%;
     text-align: center;
     color: #fff;
