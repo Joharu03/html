@@ -107,11 +107,11 @@ li {
     justify-content: center;
     align-items: center;
 
-    line-height: 30px;
+    /*line-height: 30px;
     background-color: #e98baf;
     background: url("../images/icon.svg")no-repeat;
     border-radius: 50%;
-    text-align: center;
+    text-align: center;*/
     color: #fff;
 }
 
