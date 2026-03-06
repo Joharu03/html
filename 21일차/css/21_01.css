@@ -104,7 +104,7 @@ li {
     height: 40px;
     line-height: 30px;
     background-color: #e98baf;
-    background: url("../images/icon.svg")no-repeat;
+    background: url("../images/icon.svg")no-repeat 0 16px;
     border-radius: 50%;
     text-align: center;
     color: #fff;
